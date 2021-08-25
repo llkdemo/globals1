@@ -1,3 +1,8 @@
+.div{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
 .designer{
     width: 100%;
     height: auto;
@@ -14,7 +19,10 @@
 
         img{
             width: 20%;
-            // height: auto;
+            height: 100%;
+            @media screen and (max-width:820px){
+                width: 40%;
+            }
         }
 
         .web{
@@ -44,9 +52,12 @@
         justify-content: space-between;
         padding: 5em 0em 0em 0em;
 
+        @media screen and (max-width:720px){
+            width: 100%;
+        }
         img{
             width: 10%;
-            display:inline-block
+            display:inline-block;
         }
 
         .small{
@@ -146,6 +157,9 @@
             border-radius: 25px;
             border: 0;
             margin-bottom: 3em;
+            @media screen and (max-width:1320px){
+                margin-bottom: 4em;
+            }
         }
 
         .btn2{
@@ -156,6 +170,10 @@
             color: #8dc63f;
             border-radius: 25px;
             margin-left: -22em;
+            @media screen and (max-width:1320px){
+                margin-left: -34em;
+                margin-top: 3.5em;
+            }
         }
     }
 }

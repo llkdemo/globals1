@@ -13,22 +13,34 @@
 	<link rel="stylesheet/less" href="./assets/css/common.less">
     <link rel="stylesheet/less" href="./assets/css/index.less">
     <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
     <!-- header -->
-    <header class="header wow fadeInUp" id="home" href="#home">
-        <div class="container">
-            
+    <header class="header" id="home">
+        <!-- <div class="container">
             <div class="left">
-                <div class="btn">
-                    <button></button>
+
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i class="fas fa-bars" id="btn"></i>
+                    <i class="fas fa-times" id="cancel"></i>
+                </label>
+                <div class="sidebar">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-qrcode"></i>Home</a></li>
+                        <li><a href="#"><i class="fas fa-link"></i>Pages</a></li>
+                        <li><a href="#"><i class="fas fa-calendar-week"></i>Vacancies</a></li>
+                    </ul>
                 </div>
+                <section><img src="./assets/images/button1.png" /></section>
+            
                 <div class="logo">
                     <img src="./assets/images/logo.png" />
                 </div>
             </div>
-            <div class="center">
+            <div class="center navbar-collapse">
                 <ul>
                     <li>
                       <a href="#home" class="wow fadeInRight" data-wow-delay="100ms">Home</a>
@@ -36,32 +48,56 @@
                     <li>
                       <a href="./pages.html" class="wow fadeInRight" data-wow-delay="200ms">Pages</a>
                     </li>
-                      <li>
-                      <a href="#" class="wow fadeInRight" data-wow-delay="300ms">Portfolio</a>
-                    </li>
                     <li>
-                      <a href="./vacancies.html" class="wow fadeInRight" data-wow-delay="400ms">Vacancies</a>
-                    </li>
-                    <li>
-                        <a href="#" class="wow fadeInRight" data-wow-delay="500ms">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#" class="wow fadeInRight" data-wow-delay="600ms">Contacts</a>
+                      <a href="./vacancies.html" class="wow fadeInRight" data-wow-delay="300ms">Vacancies</a>
                     </li>
                 </ul>
     
             </div>
-            <div class="jia">
+            <div class="jia ">
                 <div class="btn1">+</div>
             </div>
             <div class="right">
                 <button></button>
             </div>
             
-        </div>
+        </div> -->
         
-    </header>
+        <nav class = "navbar navbar-default" role = "navigation"> 
+            <button class="btn1 glyphicon glyphicon-menu-hamburger">  
+                <span class="icon-bar"></span>  
+                <span class="icon-bar"></span>  
+                <span class="icon-bar"></span>  
+            </button>  
 
+            <img src="./assets/images/logo.png" class="nav navbar-nav">
+
+            <div class="navbar-header">  
+                <button type="button" class="navbar-toggle" data-toggle = "collapse"  data-target = "#target-menu">  
+                    <span class="sr-only">qieh</span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                </button>  
+            </div>  
+            <div class="collapse navbar-collapse" id = "target-menu">  
+                <ul class="nav navbar-nav navbar-right">  
+                    <li><a href="#home">Home</a></li>  
+                    <li><a href="./pages.html">Pages</a></li>  
+                    <li><a href="./vacancies.html">Vacancies</a></li>  
+                </ul> 
+            </div> 
+
+            <button class="btn2 glyphicon glyphicon-option-vertical navbar-right">  
+                <span class="icon-bar"></span>  
+                <span class="icon-bar"></span>  
+                <span class="icon-bar"></span>  
+            </button>  
+
+        </nav>
+
+    </header>
+    <div class="div"></div>
     <!-- banner -->
     <div id="myCarousel" class="carousel slide wow fadeInUp">
         <!-- 轮播（Carousel）指标 -->
